@@ -72,3 +72,32 @@ body{font-size: 18px;}
 
 #header04 .menu .sign{position: absolute;top: 0;right: 40px;height: 120px;}
 #header04 .menu .sign a{display: block;width: 130px;height: 40px;line-height: 40px;margin: 40px 0;background: #326ce5;border-radius: 20px; color: #ffffff;text-align: center;}
+/* 05 */
+#header05{width: 100%;height: 150px;}
+#header05 .top{height: 30px;background: #326ce5;padding: 0 40px;}
+#header05 .top p{float: left;font-size: 14px;color: #ffffff;line-height: 30px;}
+#header05 .top .sns{float: right;}
+#header05 .top .sns li{float: left;margin: 0 8px;}
+#header05 .top .sns li:last-child{margin-right: 0;}
+#header05 .top .sns li a{display: block;padding: 7px 0;}
+#header05 .top .sns li img{display: block;height: 16px;}
+
+#header05 .menu{position: relative;width: 100%;height: 120px;}
+#header05 .menu .logo{position: absolute;top: 0;left: 40px;}
+#header05 .menu .logo a{display: block;}
+#header05 .menu .logo a img{display: block;height: 60px;padding: 30px 0;}
+
+#header05 .menu #gnb ul{text-align: center;font-size: 0;}
+#header05 .menu #gnb ul li{display: inline-block;vertical-align: middle;margin: 0 30px;}
+#header05 .menu #gnb ul li a{display: block;height: 18px;line-height: 1;font-size: 18px;padding: 51px 0 47px;border-bottom: 4px solid transparent;transition: color 0.5, border-bottom-color 0.5s;}
+#header05 .menu #gnb ul li a:hover{color: #326ce5;border-bottom-color: #326ce5;}
+
+#header05 .menu .sign{position: absolute;top: 0;right: 40px;height: 120px;}
+#header05 .menu .sign a{display: block;width: 130px;height: 40px;line-height: 40px;margin: 40px 0;background: #326ce5;border-radius: 20px; color: #ffffff;text-align: center;}
+
+#header05 .btn{border-top: 1px solid #ddd;}
+#header05 .btn .search_box{width: 560px;height: 40px;margin: 10px auto;background: #f2f2f2;border-radius: 20px;padding: 0 15px;font-size: 0;}
+#header05 .btn .search_box form *{display: inline-block;vertical-align: middle;}
+#header05 .btn .search_box form input{width: calc(100% - 20px);height: 100%;}
+#header05 .btn .search_box form button{}
+#header05 .btn .search_box form button img{width: 20px;}
